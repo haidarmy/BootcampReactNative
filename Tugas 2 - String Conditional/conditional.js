@@ -1,26 +1,26 @@
-// var nama = "Junaedi"
-// var peran = ""
+var nama = "Junaedi"
+var peran = ""
 
-// if(nama !== ''){
-//     if(peran.toLocaleLowerCase() == "penyihir"){
-//         console.log(`Selamat datang di Dunia Werewolf, ${nama}`)
-//         console.log(`Halo Penyihir ${nama}, kamu dapat melihat siapa yang menjadi werewolf`)
-//     }
-//     else if(peran.toLocaleLowerCase() == "guard"){
-//         console.log(`Selamat datang di Dunia Werewolf, ${nama}`)
-//         console.log(`Halo Guard ${nama}, kamu dapat melindungi temanmu dari serangan werewolf`)
-//     }
-//     else if(peran.toLocaleLowerCase() == "werewolf"){
-//         console.log(`Selamat datang di Dunia Werewolf, ${nama}`)
-//         console.log(`Halo Werewolf ${nama}, kamu akan memakan mangsa setiap malam`)
-//     }
-//     else{
-//         console.log(`Halo ${nama}, Pilih peranmu untuk memulai game!`)
-//     }
-// }
-// else{
-//     console.log("Nama harus diisi!")
-// }
+if(nama !== ''){
+    if(peran.toLocaleLowerCase() == "penyihir"){
+        console.log(`Selamat datang di Dunia Werewolf, ${nama}`)
+        console.log(`Halo Penyihir ${nama}, kamu dapat melihat siapa yang menjadi werewolf`)
+    }
+    else if(peran.toLocaleLowerCase() == "guard"){
+        console.log(`Selamat datang di Dunia Werewolf, ${nama}`)
+        console.log(`Halo Guard ${nama}, kamu dapat melindungi temanmu dari serangan werewolf`)
+    }
+    else if(peran.toLocaleLowerCase() == "werewolf"){
+        console.log(`Selamat datang di Dunia Werewolf, ${nama}`)
+        console.log(`Halo Werewolf ${nama}, kamu akan memakan mangsa setiap malam`)
+    }
+    else{
+        console.log(`Halo ${nama}, Pilih peranmu untuk memulai game!`)
+    }
+}
+else{
+    console.log("Nama harus diisi!")
+}
 
 var hari = 21;
 var bulan = 1;
